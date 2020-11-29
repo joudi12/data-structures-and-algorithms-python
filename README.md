@@ -10,4 +10,4 @@
 ### I used a function to not repeat the code over and over again
 
 ## Solution
-[image](/home/joudi/data-structures-and-algorithms-python/assets/revese_array.jpg)
+[image](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/revese_array.jpg)
