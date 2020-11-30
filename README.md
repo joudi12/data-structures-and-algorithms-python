@@ -1,7 +1,7 @@
 | day    |      reading assignment     |  links  |
 |----------|:-------------:| ------------:|
 |  1 |  revers array  | [link](https://github.com/joudi12/data-structures-and-algorithms-python/pull/1) |
-| 2  |  |    |
+| 2  |  ShiftArray| [link](https://github.com/joudi12/data-structures-and-algorithms-python/pull/2)   |
 | 3  |  |        |
 | 4  |        |   |
 |5   | |  |
