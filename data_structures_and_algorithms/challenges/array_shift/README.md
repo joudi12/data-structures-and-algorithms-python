@@ -8,4 +8,4 @@
 ### to put the number in the middil of the array first i divide the length of the array (what ever if it odd or even ) then add the number at the middil between the number which i divided
 
 ## Solution
-![image](/home/joudi/data-structures-and-algorithms-python/assets/shift -array.jpg)
+![image](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/shift%20-array.jpg)
