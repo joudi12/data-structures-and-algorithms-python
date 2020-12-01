@@ -2,7 +2,7 @@
 |----------|:-------------:| ------------:|
 |  1 |  revers array  | [link](https://github.com/joudi12/data-structures-and-algorithms-python/pull/1) |
 | 2  |  ShiftArray| [link](https://github.com/joudi12/data-structures-and-algorithms-python/pull/2)   |
-| 3  |  |        |
+| 3  |  binery search |[link](https://github.com/joudi12/data-structures-and-algorithms-python/pull/3)        |
 | 4  |        |   |
 |5   | |  |
 | 6  |   | |
