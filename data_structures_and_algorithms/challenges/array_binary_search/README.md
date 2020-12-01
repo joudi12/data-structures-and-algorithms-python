@@ -7,4 +7,4 @@
 ## Approach & Efficiency
 ### Binary search takes less time than sequantional and less steps
 ## Solution
-![image]()
+![image](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/binary-search.jpg)
