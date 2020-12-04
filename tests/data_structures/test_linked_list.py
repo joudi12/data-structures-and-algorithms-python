@@ -5,17 +5,19 @@ from data_structures_and_algorithms.data_structures.linked_list.linked_list.link
 
 
 def test_empty():
-    list = LinkedList()
-    assert list.head == None
+    ll = LinkedList()
+    assert ll.head == None
 
 def test_insert_head():
     ll = LinkedList()
     ll.insert(5)
     assert ll.head.value == 5
+
 def test_insert():
-    list = LinkedList()
-    list.insert(3)
-    assert list.head.value == 3
+    ll = LinkedList()
+    ll.insert(3)
+    assert ll.head.value == 3
+
 def test_insert_multipal():
     ll =LinkedList()
     ll.insert(5)
@@ -31,11 +33,13 @@ def test_include_true():
     ll.insert(5)
     ll.insert(7)
     assert ll.includes(7)==True
+
 def test_include_false():
     ll =LinkedList()
     ll.insert(4)
     ll.insert(9)
     assert ll.includes(5) == False
+
 def test_string():
     ll=LinkedList()
     ll.insert(9)
