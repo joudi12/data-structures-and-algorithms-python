@@ -20,9 +20,9 @@
 
 6. Insert_after method :  which Add a new node with the given newValue immediately after the first value node.
 ## solution
-![image]()
-![image1]()
-![image2]()
+![image](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/append.jpg)
+![image1](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/insert-aftre-before.jpg)
+![image2](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/insert-aftre-before.jpg)
 
 
 
