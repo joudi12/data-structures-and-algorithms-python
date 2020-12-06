@@ -53,6 +53,89 @@ class LinkedList:
             print(f'this is error in this method {error}')
 
 
+    def append(self,value):
+        """
+           Takes any value as an argument and adds a new node with that value to the end of the list.
+
+           Arguments:
+               a value to be added to the list
+        """
+        try:
+            node =Node(value)
+            if self.head ==None:
+                self.head=node
+            else:
+                current = self.head
+                while current.next !=None:
+                    current=current.next
+                current.next=node
+        except Exception as error:
+            print(f'this is error in this method {error}')
+
+
+    def insert_before(self,value, newVal):
+
+
+        try:
+            node =Node(newVal)
+            if not self.head:
+                self.head = node
+            else:
+                # To add before the first node
+                if self.head.value == value:
+                        swap = self.head
+                        self.head = node
+                        node.next = swap
+                        return
+                else:
+
+                    current = self.head
+                    while current.next != None:
+                        if current.next.value == value:
+                            swap = current.next
+                            current.next = node
+                            node.next = swap
+                            return
+                        else:
+                            current = current.next
+
+                    return "this node doesn't exist!"
+        except Exception as error:
+            print(f'this is error in this method {error}')
+
+
+
+    def insert_after(self,value, newVal):
+        try:
+            node=Node(newVal)
+            if self.head ==None:
+                self.head=node
+            else:
+                current = self.head
+                while current:
+                    if current.value == value:
+                        node.next = current.next
+                        current.next = node
+
+                        break
+
+                    else:
+                        current = current.next
+
+                return "this node doesn't exist!"
+        except Exception as error:
+            print(f'this is error in this method {error}')
+
+
+
+
+
+
+
+
+
+
+
     def __str__(self):
         """
          method which takes in no arguments and returns a string representing all the values in the Linked List,
@@ -77,16 +160,26 @@ class LinkedList:
 
 
 
+
+
 if __name__ == "__main__":
-    node1 = Node(5)
-    nodee=LinkedList()
-    print(node1.value)
-    nodee.insert(5)
-    nodee.insert(7)
-    nodee.insert(5)
-    print(nodee)
-    print(nodee.includes(5))
-    print(nodee.__str__())
+    # node1 = Node(5)
+    # nodee=LinkedList()
+    # # print(node1.value)
+    # nodee.insert(5)
+    # nodee.insert(7)
+    # nodee.insert(2)
+    # # print(nodee)
+    # # print(nodee.includes(5))
+    # # print(nodee.__str__())
+    # print(nodee.insert_Before(2,3))
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(6)
+    ll.append(9)
+    ll.append(4)
+    ll.insert_after(4,11)
+    print(ll.__str__())
 
 
 
