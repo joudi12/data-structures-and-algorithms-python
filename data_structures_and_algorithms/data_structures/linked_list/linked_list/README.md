@@ -23,7 +23,7 @@
 ## solution
 ![image](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/append.jpg)
 ![image1](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/insert-aftre-before.jpg)
-![image3]()
+![image3](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/kth.jpg)
 
 
 
