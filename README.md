@@ -6,7 +6,7 @@
 | 4  |      was code challeng with pairs   |   |
 |5   | linked list |[link](https://github.com/joudi12/data-structures-and-algorithms-python/pull/4)  |
 | 6  | linked list2  | [link](https://github.com/joudi12/data-structures-and-algorithms-python/pull/6)|
-| 7  |   |       |
+| 7  | linked list3  | [link](https://github.com/joudi12/data-structures-and-algorithms-python/pull/7)      |
 | 8  | |      |
 | 9  |  g   |            |
 |10  |  |   |
