@@ -128,6 +128,30 @@ class LinkedList:
 
 
 
+    def kth_from_end(self, k):
+
+
+        try:
+
+
+            counter = -1
+            current = self.head
+            while current:
+                current = current.next
+                counter = counter + 1
+            if counter >= k:
+                current = self.head
+                for i in range(counter - k):
+                    current = current.next
+                return current.value
+            else:
+                return 'The Value Not Found'
+
+        except:
+            return "The Value Not Found"
+
+
+
 
 
 
