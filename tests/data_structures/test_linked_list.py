@@ -98,6 +98,74 @@ def test_insert_after():
 
 
 
+def test_middle_k():
+    ll = LinkedList()
+    ll.append('1')
+    ll.append('2')
+    ll.append('3')
+    ll.append('4')
+    ll.append('5')
+    ll.append('6')
+    assert ll.kth_from_end(3) == '3'
+
+def test_kth_from_end_0():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(3)
+    ll.append(8)
+    ll.append(2)
+    expected = 2
+    actual =ll.kth_from_end(0)
+    assert expected == actual
+
+def test_kth_from_end_2():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(3)
+    ll.append(8)
+    ll.append(2)
+    expected = 3
+    actual =ll.kth_from_end(2)
+    assert expected == actual
+
+def test_kth_from_end_6():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(3)
+    ll.append(8)
+    ll.append(2)
+    expected = "The Value Not Found"
+    actual =ll.kth_from_end(6)
+    assert expected == actual
+
+def test_kth_from_end_size_one():
+    ll = LinkedList()
+    ll.append(1)
+    expected = 1
+    actual =ll.kth_from_end(0)
+    assert expected == actual
+
+
+def test_kth_from_end_negative():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(3)
+    ll.append(8)
+    ll.append(2)
+    expected = "The Value Not Found"
+    actual =ll.kth_from_end(-2)
+    assert expected == actual
+def test_kth_from_end_same():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(3)
+    ll.append(8)
+    ll.append(2)
+    expected = "The Value Not Found"
+    actual =ll.kth_from_end(4)
+    assert expected == actual
+
+
 
 
 
