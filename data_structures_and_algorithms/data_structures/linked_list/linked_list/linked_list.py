@@ -1,4 +1,4 @@
-# from data_structures_and_algorithms.data_structures.linked_listl.inked_list.ll_zip import zip_lists
+
 class Node :
     def __init__(self,value):
         self.value=value
