@@ -42,7 +42,7 @@ zipped_List = head -> [1] -> [5] -> [3] -> [9] -> [2] -> [4] -> X
 
 
 
-![image4]()
+![image4](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/zip.jpg)
 
 
 
