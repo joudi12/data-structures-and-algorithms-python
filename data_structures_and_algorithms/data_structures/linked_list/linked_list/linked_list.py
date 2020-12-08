@@ -1,4 +1,4 @@
-
+# from data_structures_and_algorithms.data_structures.linked_listl.inked_list.ll_zip import zip_lists
 class Node :
     def __init__(self,value):
         self.value=value
@@ -149,6 +149,27 @@ class LinkedList:
 
         except:
             return "The Value Not Found"
+
+    def zip_lists(self, list1, list2):
+
+
+        if not list1 :
+            return list1
+        if not list2 :
+            return list1
+        output =LinkedList()
+        current1 =list1.head
+        current2 =list2.head
+        while current1 :
+            output.append(current1.value)
+            if current2 :
+                output.append(current2.value)
+                current2 = current2.next
+            current1= current1.next
+        while current2 :
+            output.append(current2.value)
+            current2 =current2.next
+        return output
 
 
 

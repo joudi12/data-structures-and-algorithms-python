@@ -1,3 +1,4 @@
+
 from data_structures_and_algorithms.data_structures.linked_list.linked_list.linked_list import LinkedList
 
 
@@ -164,7 +165,49 @@ def test_kth_from_end_same():
     expected = "The Value Not Found"
     actual =ll.kth_from_end(4)
     assert expected == actual
+def test_zipLists1():
+    llist = LinkedList()
+    llist1 = LinkedList()
+    llist2 = LinkedList()
+    llist1.append(3)
+    llist1.append(2)
+    llist1.append(1)
 
+    llist2.append(8)
+    llist2.append(7)
+    llist2.append(6)
+    assert llist.zip_lists(llist1,llist2).__str__() =="{ 3 } -> { 8 } -> { 2 } -> { 7 } -> { 1 } -> { 6 } -> NULL"
+
+def test_zipLists2():
+    llist = LinkedList()
+    llist1 = LinkedList()
+    llist2 = LinkedList()
+    llist1.append(3)
+    llist1.append(2)
+    llist1.append(1)
+    llist1.append(0)
+    llist1.append(0)
+
+    llist2.append(8)
+    llist2.append(7)
+    llist2.append(6)
+    assert llist.zip_lists(llist1,llist2).__str__() =="{ 3 } -> { 8 } -> { 2 } -> { 7 } -> { 1 } -> { 6 } -> { 0 } -> { 0 } -> NULL"
+
+def test_zipLists3():
+    llist = LinkedList()
+    llist1 = LinkedList()
+    llist2 = LinkedList()
+    llist1.append(3)
+    llist1.append(2)
+    llist1.append(1)
+
+
+    llist2.append(8)
+    llist2.append(7)
+    llist2.append(6)
+    llist2.append(5)
+    llist2.append(5)
+    assert llist.zip_lists(llist1,llist2).__str__() =="{ 3 } -> { 8 } -> { 2 } -> { 7 } -> { 1 } -> { 6 } -> { 5 } -> { 5 } -> NULL"
 
 
 
