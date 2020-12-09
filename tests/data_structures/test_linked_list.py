@@ -180,7 +180,7 @@ def test_zipLists1():
     assert zip_lists(llist1,llist2).__str__() == "{ 3 } -> { 8 } -> { 2 } -> { 7 } -> { 1 } -> { 6 } -> NULL"
 
 
-@pytest.mark.skip('still refactoring')
+# @pytest.mark.skip('still refactoring')
 def test_zipLists2():
     llist = LinkedList()
     llist1 = LinkedList()
@@ -193,9 +193,9 @@ def test_zipLists2():
     llist2.append(8)
     llist2.append(7)
     llist2.append(6)
-    assert llist.zip_lists(llist1,llist2).__str__() =="{ 3 } -> { 8 } -> { 2 } -> { 7 } -> { 1 } -> { 6 } -> { 0 } -> { 0 } -> NULL"
+    assert zip_lists(llist1,llist2).__str__() =="{ 3 } -> { 8 } -> { 2 } -> { 7 } -> { 1 } -> { 6 } -> { 0 } -> { 0 } -> NULL"
 
-@pytest.mark.skip('still refactoring')
+# @pytest.mark.skip('still refactoring')
 def test_zipLists3():
     llist = LinkedList()
     llist1 = LinkedList()
@@ -208,7 +208,7 @@ def test_zipLists3():
     llist2.append(6)
     llist2.append(5)
     llist2.append(5)
-    assert llist.zip_lists(llist1,llist2).__str__() =="{ 3 } -> { 8 } -> { 2 } -> { 7 } -> { 1 } -> { 6 } -> { 5 } -> { 5 } -> NULL"
+    assert zip_lists(llist1,llist2).__str__() =="{ 3 } -> { 8 } -> { 2 } -> { 7 } -> { 1 } -> { 6 } -> { 5 } -> { 5 } -> NULL"
 
 
 
