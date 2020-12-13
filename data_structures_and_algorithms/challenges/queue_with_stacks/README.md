@@ -5,4 +5,4 @@
 ## The task is to implement a queue using stack. To satisfy FIFO property of a queue we need to keep two stacks. They serve to reverse arrival order of the elements and one of them store the queue elements in their final order.
 
 ## solution
-![image]()
+![image](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/queue_with_stack.jpg)
