@@ -8,4 +8,4 @@
 ### I Used Queue Approach first-in first-out in the class AnimalShelter and I created tow Queue classes one to hold the cats obgects and the other to hold the dogs objects.
 
 ## Solution
-![image]()
+![image](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/fifo_animal_shelter.jpg)
