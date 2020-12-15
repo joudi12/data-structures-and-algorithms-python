@@ -9,7 +9,7 @@
 | 7  | linked list3  | [link](https://github.com/joudi12/data-structures-and-algorithms-python/pull/7)      |
 | 8  |stack and queue  |   [link](https://github.com/joudi12/data-structures-and-algorithms-python/pull/11)     |
 | 9  |  g   |            |
-|10  |  |   |
+|10  |  multi_brackeets| [link](https://github.com/joudi12/data-structures-and-algorithms-python/tree/main/data_structures_and_algorithms/challenges/multi_bracket_validation)  |
  |    |
 | 11 |   |    |
 | 12 |   |    |
