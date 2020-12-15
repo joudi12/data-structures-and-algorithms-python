@@ -12,4 +12,4 @@
 ### I created a function to handel this problem
 
 ## Solution
-![image]()
+![image](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/multiy_brackets.jpg)
