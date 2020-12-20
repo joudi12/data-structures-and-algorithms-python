@@ -31,7 +31,16 @@ def test_postorder(prep):
     actual = prep.postOrder()
     expected = [17,-2,5,8,10,5]
     assert actual == expected
+def test_maximum_value(prep):
+    actual = prep.find_maximum_value()
+    expected = 17
+    assert actual == expected
 
+def test_maximum_value_empty_tree():
+    bt = BinaryTree()
+    actual = bt.find_maximum_value()
+    expected = "Tree is Empty"
+    assert actual == expected
 
 @pytest.fixture
 def prep():

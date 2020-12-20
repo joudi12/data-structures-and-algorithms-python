@@ -7,6 +7,7 @@ class Node:
 class BinaryTree:
     def __init__(self):
         self.root = None
+        self.max =0
 
 
     def preorder(self):
@@ -58,7 +59,25 @@ class BinaryTree:
             return output
         except Exception as error:
             return f'An error occured during excuting: {error}'
+    def find_maximum_value(self):
+        try:
+            if not self.root:
+                return'Tree is Empty'
 
+            def _walk(node):
+                if node.value > self.max:
+                    self.max = node.value
+                if node.left:
+                    _walk(node.left)
+
+                if node.right:
+                    _walk(node.right)
+
+
+            _walk(self.root)
+            return self.max
+        except Exception as error:
+            return f'An error occured during excuting: {error}'
 
 
 class BinarySearchTree(BinaryTree):
@@ -141,6 +160,7 @@ if __name__ == "__main__":
     print(bst.contains(11))
     print(bst.contains(-1))
     print(bst.contains(1))
+    print(bst.find_maximum_value())
 
 
 
