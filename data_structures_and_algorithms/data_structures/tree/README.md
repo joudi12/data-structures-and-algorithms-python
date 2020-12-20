@@ -4,7 +4,7 @@
 ### Binary Search tree exhibits a special behavior. A node's left child must have a value less than its parent's value and the node's right child must have a value greater than its parent value.
 
 # challenge ;)
-creating  a tree that can be traversed with 3 different methods and adding nodes using binary search.
+creating  a tree that can be traversed with 3 different methods and adding nodes using binary search also search for maxiumum value .
 
 # Approach & Efficiency :)
 creat class have multipal method
@@ -13,3 +13,6 @@ creat class have multipal method
 - In-order: left >> root >> right
 - Post-order: left >> right >> root
 - add--> accepts a value, and adds a new node with that value in the correct location in the binary search tree. - - contains--> accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.
+- maximum -->  return the maximum value stored in the tree.
+# soulotion
+![image]()
