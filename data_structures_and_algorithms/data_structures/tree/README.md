@@ -20,4 +20,4 @@ creat class have multipal method
 ![image](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/max_tree.jpg)
 
 ### breadth first traversal
-![image2]()
+![image2](https://raw.githubusercontent.com/joudi12/data-structures-and-algorithms-python/main/assets/tree2.jpg)
