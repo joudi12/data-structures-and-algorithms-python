@@ -79,6 +79,28 @@ class BinaryTree:
         except Exception as error:
             return f'An error occured during excuting: {error}'
 
+    def breadth_first_traversal(self, tree):
+        try:
+            queue = []
+            result = []
+            if not tree:
+                return 'Tree is empty'
+            else:
+                if tree:
+                    queue.append(tree)
+                while queue:
+                    current = queue.pop(0)
+                    result.append(current.value)
+                    if current.left:
+                        queue.append(current.left)
+                    if current.right:
+                        queue.append(current.right)
+            return result
+        except Exception as error:
+            return f'An error occured during excuting: {error}'
+
+
+
 
 class BinarySearchTree(BinaryTree):
     def add(self, value):
@@ -137,6 +159,7 @@ if __name__ == "__main__":
     bt.root.left.left = Node(17)
     bt.root.right.right = Node(8)
     print(bt.preorder())
+    print(bt.breadth_first_traversal(bt.root))
     bst = BinarySearchTree()
     bst.add(3)
     bst.add(6)
