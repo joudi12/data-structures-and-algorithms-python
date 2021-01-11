@@ -204,7 +204,7 @@ if __name__ == "__main__":
     ll.append(6)
     ll.append(9)
     ll.append(4)
-    ll.insert_after(4,11)
+    ll.insert_after(1,3)
     print(ll.__str__())
 
 
