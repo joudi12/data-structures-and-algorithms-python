@@ -218,6 +218,7 @@ if __name__ == "__main__":
     # # print(nodee.includes(5))
     # # print(nodee.__str__())
     # print(nodee.insert_Before(2,3))
+
     # ll = LinkedList()
     # ll.append(1)
     # ll.append(6)
@@ -240,5 +241,15 @@ if __name__ == "__main__":
     li2.append(4)
     print(li1)
     print(li1.kth_from_end(3))
+
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(6)
+    ll.append(9)
+    ll.append(4)
+    ll.insert_after(1,3)
+    print(ll.__str__())
+
+
 
 
