@@ -182,7 +182,26 @@ class LinkedList:
 
 
 
-
+# def getIntersectionNode( headA, headB):
+#     curA,curB = headA,headB
+#     lenA,lenB = 0,0
+#     while curA is not None:
+#         lenA += 1
+#         curA = curA.next
+#     while curB is not None:
+#         lenB += 1
+#         curB = curB.next
+#     curA,curB = headA,headB
+#     if lenA > lenB:
+#         for i in range(lenA-lenB):
+#             curA = curA.next
+#     elif lenB > lenA:
+#         for i in range(lenB-lenA):
+#             curB = curB.next
+#     while curB.value != curA.value:
+#         curB = curB.next
+#         curA = curA.next
+#     return curA.value
 
 
 
@@ -199,6 +218,30 @@ if __name__ == "__main__":
     # # print(nodee.includes(5))
     # # print(nodee.__str__())
     # print(nodee.insert_Before(2,3))
+
+    # ll = LinkedList()
+    # ll.append(1)
+    # ll.append(6)
+    # ll.append(9)
+    # ll.append(4)
+    # ll.insert_after(1,3)
+    # print(ll.__str__())
+    li1=LinkedList()
+    # li1.append(4)
+    li1.append(-9)
+    li1.append('joudi')
+    li1.append(2)
+    li1.append(3)
+    li1.append(4)
+    li2=LinkedList()
+    li2.append(99)
+    li2.append(1)
+    li2.append(2)
+    li2.append(3)
+    li2.append(4)
+    print(li1)
+    print(li1.kth_from_end(3))
+
     ll = LinkedList()
     ll.append(1)
     ll.append(6)
@@ -206,6 +249,7 @@ if __name__ == "__main__":
     ll.append(4)
     ll.insert_after(1,3)
     print(ll.__str__())
+
 
 
 
