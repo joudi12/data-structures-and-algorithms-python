@@ -1,5 +1,14 @@
 # Graph ;)
+# Challenge Summary
+### breadth_first and solv the streach goals
 
+## Challenge Description
+### Once you’ve achieved a working solution, define a new method that accepts two nodes as input and uses your traversal algorithm to determine if a path exists between the two nodes.
+
+## Solution
+![image](../../../assets/breadth_first.jpg)
+---
+---
 
 ## Here is some common terminology used when working with Graphs:
 
@@ -34,3 +43,7 @@
 6. The proper size is returned, representing the number of nodes in the graph
 7. A graph with only one node and edge can be properly returned
 8. An empty graph properly returns null
+---
+---
+
+
