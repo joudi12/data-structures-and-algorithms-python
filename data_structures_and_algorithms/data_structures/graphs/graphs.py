@@ -47,3 +47,15 @@ class Graph:
                     breadth.enqueue(n)
                     visited.add(n)
         return nodes
+
+    def if_path(self,node1,node2):
+        neighbours = self.get_neighbours(node1)
+        arr = []
+        for i in neighbours:
+            arr.append(i[0])
+        if node2  in arr:
+            return True
+        else:
+            return False
+
+
